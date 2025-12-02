@@ -3,7 +3,7 @@ import { supabase } from "./supabaseClient";
 import { createUploadUrlForFile } from "./api";
 import type { UploadTicket } from "./api";
 
-const API_URL = "http://localhost:4000/graphql";
+const API_URL = "https://secure-media-backend.onrender.com";
 
 async function sha256FromFile(file: File): Promise<string> {
   const buffer = await file.arrayBuffer();
