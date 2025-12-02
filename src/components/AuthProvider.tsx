@@ -1,4 +1,6 @@
-import React, { createContext, ReactNode } from 'react';
+import  { createContext } from 'react';
+import type { ReactNode } from 'react';
+
 import { useAuth} from '../hooks/userAuth.ts';
 import type { User } from '../hooks/userAuth.ts';
 
