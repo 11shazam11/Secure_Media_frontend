@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:4000/graphql';
+const API_URL = 'https://secure-media-backend.onrender.com';
 
 export type UploadTicket = {
   assetId: string;
